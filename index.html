@@ -345,21 +345,18 @@
 						</ul>
 					</div>
 
-					<div class="download-app info-box">
-						<h4>Tải ứng dụng để nhận đơn hàng ngay</h4>
-						<div class="download-btn">
-							<a href="#"><img src="images/appstore-btn.png" alt="Appstore" class="buzz-out" /></a>
-						</div>
-						<div class="download-btn">
-							<a href="#"><img src="images/android-btn.png" alt="Android" class="buzz-out" /></a>
-						</div>
-					</div>
-
 					<div class="register info-box">
 						<h4>hoặc Đăng Ký để được tư vấn thêm</h4>
-						<form class="register-form" action="index.html" method="post">
-							<input type="text" name="name" value="" placeholder="Họ và tên">
-							<input type="text" name="phone" value="" placeholder="Số điện thoại">
+						<form class="register-form" action="" method="post">
+							<input type="text" name="name" value="" placeholder="Họ và tên" required>
+							<input type="text" name="phone" value="" placeholder="Số điện thoại" required>
+							<input type="email" name="email" value="" placeholder="Email" required>
+							<input type="text" name="address" value="" placeholder="Địa chỉ" required>
+							<select class="work-location" name="work-location" required>
+								<option value="" disabled selected>Nơi bạn muốn làm việc</option>
+								<option value="hcm">Thành phố Hồ Chí Minh</option>
+							</select>
+							<input type="checkbox" name="privacy" value="agree" required> <label>Tôi đã đọc và đồng ý với các điều khoản</label>
 							<input type="submit" name="submit" value="Đăng ký" class="buzz-out">
 						</form>
 					</div>
