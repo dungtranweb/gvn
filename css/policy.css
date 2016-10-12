@@ -33,19 +33,14 @@ body {
     text-transform: uppercase; }
 
 #content {
-  padding: 0 20px; }
+  padding: 30px 20px 0 20px; }
   #content .space {
     margin: 30px 0;
     border: 1px solid #e6e6e6; }
   #content h2 {
     font-size: 1.5em;
     font-weight: 600;
-    font-weight: 2.2em;
-    color: #444; }
-  #content h3 {
-    font-size: 1.2em;
-    font-weight: 400;
-    line-height: 1.8em;
+    font-weight: 2.4em;
     color: #444; }
   #content p {
     font-size: 1em;
@@ -71,8 +66,12 @@ body {
   .footer img {
     margin: 40px 0 25px 0; }
   .footer h4 {
+    font-size: 18px;
+    line-height: 24px;
     margin: 30px auto; }
   .footer h3 {
+    font-size: 20px;
+    line-height: 26px;
     margin-bottom: 30px; }
 
 .copyright {
