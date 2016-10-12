@@ -23,13 +23,14 @@ body {
   background-color: #22ae4c; }
   #header img.logo {
     margin: 20px 0 0 30px;
-    width: 50px; }
+    width: 50px;
+    visibility: hidden; }
   #header h1 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     color: white;
-    padding-top: 40px;
+    padding-top: 30px;
     text-transform: uppercase; }
 
 #content {
