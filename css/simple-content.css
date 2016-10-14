@@ -20,18 +20,19 @@ body {
 #header {
   width: 100%;
   height: 250px;
-  background-color: #22ae4c; }
-  #header img.logo {
-    margin: 20px 0 0 30px;
-    width: 50px;
-    visibility: hidden; }
+  background-color: #22ae4c;
+  display: table; }
   #header h1 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
     color: white;
-    padding-top: 30px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: table-cell; }
 
 #content {
   padding: 30px 20px 0 20px; }
@@ -42,7 +43,8 @@ body {
     font-size: 1.5em;
     font-weight: 600;
     font-weight: 2.4em;
-    color: #444; }
+    color: #444;
+    padding-bottom: 15px; }
   #content p {
     font-size: 1em;
     line-height: 1.5em; }
