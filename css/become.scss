@@ -114,8 +114,11 @@ p, span {
     width: 15px;
   }
 
-  span {
+  a {
     color: $green;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .submit {

@@ -83,8 +83,10 @@ p, span {
   .register input[type="checkbox"] {
     display: inline;
     width: 15px; }
-  .register span {
+  .register a {
     color: #22ae4c; }
+    .register a:hover {
+      text-decoration: none; }
   .register .submit {
     background-color: #22ae4c;
     border-radius: 15px;
