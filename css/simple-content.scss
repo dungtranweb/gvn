@@ -42,9 +42,9 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    line-height: 32px;
+    line-height: 40px;
     margin: 0;
-    padding: 0;
+    padding: 0 70px;
     color: white;
     text-transform: uppercase;
     vertical-align: middle;
@@ -62,9 +62,31 @@ body {
   h2 {
     font-size: 1.5em;
     font-weight: 600;
-    font-weight: 2.4em;
     color: $light-black;
     padding-bottom: 15px;
+  }
+  h4 {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: $light-black;
+    padding-bottom:10px;
+    span.blockquote {
+      background: #f9f9f9;
+      border-left: 8px solid #ccc;
+      margin: 1em 30px;
+      padding: 1.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+      display: block;
+      &:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+    }
   }
   p {
     font-size: 1em;
